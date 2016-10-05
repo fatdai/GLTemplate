@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              E2C5C130DF234696B6A98DD8 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 41F87AD6ADE242A3A880FFC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            D824A7EA39CB43179A5A6438 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            1CF17C0F5AFD4DEEA614CCEE /* PBXTargetDependency */,
+                            BB772C88889E4E4B92FD7AB8 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              F51C112C193C4C64B18255F8 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 0437724FD42D4920B1BC4D9B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            0165E3EC4723436D9249FEF0 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+D1C6884346664C73942FCFF6 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 42BF82682B0F45C195B5561B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+754EEC1D4E6C481384415747 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BaseApp.cpp */ = {isa = PBXBuildFile; fileRef = 183F516B917C44149A4AD54B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BaseApp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+85CC31C39E9C4F01A1CA439E /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BasicTech.cpp */ = {isa = PBXBuildFile; fileRef = 8E6D4937E2434799BF4B4F9C /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BasicTech.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B78CFABA013F4E69A2C3B0F6 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 19D17A9AFAEB47B4A0424B1B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Camera.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EBD88B6E229D44C78573F517 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/DrawTriangle.cpp */ = {isa = PBXBuildFile; fileRef = 94B58206C274494DBC53281B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/DrawTriangle.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+106ADE8FC0B9418BA264F0FF /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/LightTech.cpp */ = {isa = PBXBuildFile; fileRef = 4204FFE47DAD4711A998C498 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/LightTech.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EDED1CE01FD94CE096EDD956 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mat.cpp */ = {isa = PBXBuildFile; fileRef = 820AB16672004D67B804D529 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mat.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+990F97D587F549A19CAC4597 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mesh.cpp */ = {isa = PBXBuildFile; fileRef = 8F187FF78BDE415E9E773AD3 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DD5A88CF97EB44AB9DF344F2 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Quaternion.cpp */ = {isa = PBXBuildFile; fileRef = 3B67ED22929943D5AD96886D /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Quaternion.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A5EFD1D7C6404A3C80252DA5 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/ShadowMapFBO.cpp */ = {isa = PBXBuildFile; fileRef = F58839773878492EB6D4E6F0 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/ShadowMapFBO.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F33A4E41044A4820A53860F9 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Technique.cpp */ = {isa = PBXBuildFile; fileRef = 165A2270E4684E4AA3541FB3 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Technique.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+81C5FB377EBC4157ADB7A926 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestGLSL.cpp */ = {isa = PBXBuildFile; fileRef = F1C8E223F8D14B1D85585AF5 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestGLSL.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+129CCEABEE8C4261AF7437D9 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestOnlyVBO.cpp */ = {isa = PBXBuildFile; fileRef = A781BC601131406A9DBAFF91 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestOnlyVBO.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+0C8E0654977548209D79DE8E /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Texture.cpp */ = {isa = PBXBuildFile; fileRef = AA50A260CDDD4664B7085D73 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Texture.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FDD68318A81042D794CC342E /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Utils.cpp */ = {isa = PBXBuildFile; fileRef = 2C61EB60FB86438F939EF91C /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Utils.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+407B329B59B04372ADB6CC56 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec2.cpp */ = {isa = PBXBuildFile; fileRef = 4E1B608924DA4426BD72FE0F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec2.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F6C445A54BAB42B293E691E1 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec3.cpp */ = {isa = PBXBuildFile; fileRef = 73CE6EEE2F264C7683F7427F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec3.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2E03BBACE39F42BBA30CCC3F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 163C0A25FACB492F8A508C73 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              510B6C9A9FBD47E3B9D43C35 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              C4257AAC918A4E9FBEAC86A3 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2AECF784F017461AB2EC3839 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              20622AF6646849A3882AE63C /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              FC53E5B3B0964FB78F4BF99B /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              582CD4FBF54547D68DB28D9F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = B77834350444470695E775AC /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3A32779A3A424FCE9FD2B01D;
+                     remoteInfo = a;
+              };
+              8084758C5B144B649AC6B687 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = B77834350444470695E775AC /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F51C112C193C4C64B18255F8;
+                     remoteInfo = ZERO_CHECK;
+              };
+              22CCAC12F8C448939A1A4DF7 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = B77834350444470695E775AC /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F51C112C193C4C64B18255F8;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+A18BE69C2053467DB24BB57A /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+F1C0680CEDC140A698FC9FA6 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+42BF82682B0F45C195B5561B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+183F516B917C44149A4AD54B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BaseApp.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "BaseApp.cpp"; path = "src/BaseApp.cpp"; sourceTree = SOURCE_ROOT; };
+8E6D4937E2434799BF4B4F9C /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BasicTech.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "BasicTech.cpp"; path = "src/BasicTech.cpp"; sourceTree = SOURCE_ROOT; };
+19D17A9AFAEB47B4A0424B1B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Camera.cpp"; path = "src/Camera.cpp"; sourceTree = SOURCE_ROOT; };
+94B58206C274494DBC53281B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/DrawTriangle.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "DrawTriangle.cpp"; path = "src/DrawTriangle.cpp"; sourceTree = SOURCE_ROOT; };
+4204FFE47DAD4711A998C498 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/LightTech.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "LightTech.cpp"; path = "src/LightTech.cpp"; sourceTree = SOURCE_ROOT; };
+820AB16672004D67B804D529 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mat.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Mat.cpp"; path = "src/Mat.cpp"; sourceTree = SOURCE_ROOT; };
+8F187FF78BDE415E9E773AD3 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Mesh.cpp"; path = "src/Mesh.cpp"; sourceTree = SOURCE_ROOT; };
+3B67ED22929943D5AD96886D /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Quaternion.cpp"; path = "src/Quaternion.cpp"; sourceTree = SOURCE_ROOT; };
+F58839773878492EB6D4E6F0 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/ShadowMapFBO.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "ShadowMapFBO.cpp"; path = "src/ShadowMapFBO.cpp"; sourceTree = SOURCE_ROOT; };
+165A2270E4684E4AA3541FB3 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Technique.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Technique.cpp"; path = "src/Technique.cpp"; sourceTree = SOURCE_ROOT; };
+F1C8E223F8D14B1D85585AF5 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestGLSL.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "TestGLSL.cpp"; path = "src/TestGLSL.cpp"; sourceTree = SOURCE_ROOT; };
+A781BC601131406A9DBAFF91 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestOnlyVBO.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "TestOnlyVBO.cpp"; path = "src/TestOnlyVBO.cpp"; sourceTree = SOURCE_ROOT; };
+AA50A260CDDD4664B7085D73 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Texture.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Texture.cpp"; path = "src/Texture.cpp"; sourceTree = SOURCE_ROOT; };
+2C61EB60FB86438F939EF91C /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Utils.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Utils.cpp"; path = "src/Utils.cpp"; sourceTree = SOURCE_ROOT; };
+4E1B608924DA4426BD72FE0F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec2.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Vec2.cpp"; path = "src/Vec2.cpp"; sourceTree = SOURCE_ROOT; };
+73CE6EEE2F264C7683F7427F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec3.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Vec3.cpp"; path = "src/Vec3.cpp"; sourceTree = SOURCE_ROOT; };
+163C0A25FACB492F8A508C73 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "src/main.cpp"; sourceTree = SOURCE_ROOT; };
+AC9988AC918F40738BD0CD12 /* a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              6739909B2D014F79B6A1AE7F  = {
+                     isa = PBXGroup;
+                     children = (
+                            49E2649509934D818CFC896A /* Sources */,
+                            BB75BECF01904F678DA79FC6 /* Resources */,
+                            15F549B096594CB3AA874667 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              49E2649509934D818CFC896A /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8C81527B7F4C4BE094D969E6 /* a */,
+                            2CEFF8A64D2D4233B67B3054 /* ALL_BUILD */,
+                            D01FE846D160480188004DA1 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              BB75BECF01904F678DA79FC6 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              8C81527B7F4C4BE094D969E6 /* a */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AA4773B74972464480D13316 /* Source Files */,
+                            42BF82682B0F45C195B5561B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */,
+                     );
+                     name = a;
+                     sourceTree = "<group>";
+              };
+              AA4773B74972464480D13316 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            183F516B917C44149A4AD54B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BaseApp.cpp */,
+                            8E6D4937E2434799BF4B4F9C /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BasicTech.cpp */,
+                            19D17A9AFAEB47B4A0424B1B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Camera.cpp */,
+                            94B58206C274494DBC53281B /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/DrawTriangle.cpp */,
+                            4204FFE47DAD4711A998C498 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/LightTech.cpp */,
+                            820AB16672004D67B804D529 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mat.cpp */,
+                            8F187FF78BDE415E9E773AD3 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mesh.cpp */,
+                            3B67ED22929943D5AD96886D /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Quaternion.cpp */,
+                            F58839773878492EB6D4E6F0 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/ShadowMapFBO.cpp */,
+                            165A2270E4684E4AA3541FB3 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Technique.cpp */,
+                            F1C8E223F8D14B1D85585AF5 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestGLSL.cpp */,
+                            A781BC601131406A9DBAFF91 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestOnlyVBO.cpp */,
+                            AA50A260CDDD4664B7085D73 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Texture.cpp */,
+                            2C61EB60FB86438F939EF91C /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Utils.cpp */,
+                            4E1B608924DA4426BD72FE0F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec2.cpp */,
+                            73CE6EEE2F264C7683F7427F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec3.cpp */,
+                            163C0A25FACB492F8A508C73 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              2CEFF8A64D2D4233B67B3054 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CF323AE325C746D6B4A12D00 /* CMake Rules */,
+                            A18BE69C2053467DB24BB57A /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              CF323AE325C746D6B4A12D00 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              D01FE846D160480188004DA1 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DACB78DDD482453D8708E788 /* CMake Rules */,
+                            F1C0680CEDC140A698FC9FA6 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              DACB78DDD482453D8708E788 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              15F549B096594CB3AA874667 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AC9988AC918F40738BD0CD12 /* a */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              3A32779A3A424FCE9FD2B01D /* a */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = E2F00F7D445E405CAE7668E7 /* Build configuration list for PBXNativeTarget "a" */;
+                     buildPhases = (
+                            351E7174590549DC9EA1D6D4 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            8FF09D25E865400193BC98FE /* PBXTargetDependency */,
+                     );
+                     name = a;
+                     productName = a;
+                     productReference = AC9988AC918F40738BD0CD12 /* a */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              B77834350444470695E775AC /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 80B41F392E794AED96D59F38 /* Build configuration list for PBXProject  "ShadowMap" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            C4257AAC918A4E9FBEAC86A3 /* Debug */,
+                            2AECF784F017461AB2EC3839 /* Release */,
+                            20622AF6646849A3882AE63C /* MinSizeRel */,
+                            FC53E5B3B0964FB78F4BF99B /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 6739909B2D014F79B6A1AE7F;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            E2C5C130DF234696B6A98DD8 /* ALL_BUILD */,
+                            F51C112C193C4C64B18255F8 /* ZERO_CHECK */,
+                            3A32779A3A424FCE9FD2B01D /* a */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              3BE3F87B4BC64B1CA2C3C7C2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              D824A7EA39CB43179A5A6438 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode -f /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              0118EFD7BDFB4E95957629A8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              0165E3EC4723436D9249FEF0 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode -f /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              351E7174590549DC9EA1D6D4 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            754EEC1D4E6C481384415747 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BaseApp.cpp */,
+                            85CC31C39E9C4F01A1CA439E /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/BasicTech.cpp */,
+                            B78CFABA013F4E69A2C3B0F6 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Camera.cpp */,
+                            EBD88B6E229D44C78573F517 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/DrawTriangle.cpp */,
+                            106ADE8FC0B9418BA264F0FF /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/LightTech.cpp */,
+                            EDED1CE01FD94CE096EDD956 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mat.cpp */,
+                            990F97D587F549A19CAC4597 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Mesh.cpp */,
+                            DD5A88CF97EB44AB9DF344F2 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Quaternion.cpp */,
+                            A5EFD1D7C6404A3C80252DA5 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/ShadowMapFBO.cpp */,
+                            F33A4E41044A4820A53860F9 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Technique.cpp */,
+                            81C5FB377EBC4157ADB7A926 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestGLSL.cpp */,
+                            129CCEABEE8C4261AF7437D9 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/TestOnlyVBO.cpp */,
+                            0C8E0654977548209D79DE8E /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Texture.cpp */,
+                            FDD68318A81042D794CC342E /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Utils.cpp */,
+                            407B329B59B04372ADB6CC56 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec2.cpp */,
+                            F6C445A54BAB42B293E691E1 /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/Vec3.cpp */,
+                            2E03BBACE39F42BBA30CCC3F /* /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/src/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              1CF17C0F5AFD4DEEA614CCEE /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3A32779A3A424FCE9FD2B01D /* a */;
+                     targetProxy = 582CD4FBF54547D68DB28D9F /* PBXContainerItemProxy */;
+              };
+              BB772C88889E4E4B92FD7AB8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F51C112C193C4C64B18255F8 /* ZERO_CHECK */;
+                     targetProxy = 8084758C5B144B649AC6B687 /* PBXContainerItemProxy */;
+              };
+              8FF09D25E865400193BC98FE /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F51C112C193C4C64B18255F8 /* ZERO_CHECK */;
+                     targetProxy = 22CCAC12F8C448939A1A4DF7 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              6B4C0EBF951C43AA9DFAAADA /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode/build;
+                     };
+                     name = Debug;
+              };
+              321B3C2E1A244F6E8DD1F717 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode/build;
+                     };
+                     name = Release;
+              };
+              6FAB7F77EB134031B2B18FE7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode/build;
+                     };
+                     name = MinSizeRel;
+              };
+              FE500831A2C04F00809367BB /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode/build;
+                     };
+                     name = RelWithDebInfo;
+              };
+              52E7F111F4D14414B28B8CD4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              7F77F8650ED44293B7276CC9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              949CC2CC59F54D568810CE7F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              FD52D2E5133D4ED6B0C2C2AD /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              25FE40E8D59047B794E20516 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              94C9EDADE0474170BFD2A3FD /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              65D7BA84B1B946D79F621CC3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8E21A6E9405F461595BCB334 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              849B4AE1575B4873B09EFDDE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "   '-std=c++11'  ";
+                            OTHER_CPLUSPLUSFLAGS = "   '-std=c++11'  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework GLUT /usr/local/lib/libglfw.dylib /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/libs/libgl3w.a /usr/local/lib/libfreeimage.a /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/libs/libassimp.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = a;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3B52AF6836F1437595174F18 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG '-std=c++11'  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework GLUT /usr/local/lib/libglfw.dylib /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/libs/libgl3w.a /usr/local/lib/libfreeimage.a /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/libs/libassimp.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = a;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C1168D9205E8482692E93792 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG '-std=c++11'  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11'  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework GLUT /usr/local/lib/libglfw.dylib /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/libs/libgl3w.a /usr/local/lib/libfreeimage.a /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/libs/libassimp.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = a;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              F27D084B136C4F5FBE7370E6 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/glfw/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/freeimage/include, /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG '-std=c++11'  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11'  ";
+                            OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework Cocoa -framework OpenGL -framework GLUT /usr/local/lib/libglfw.dylib /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/gl3w/libs/libgl3w.a /usr/local/lib/libfreeimage.a /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/depens/assimp/libs/libassimp.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = a;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = /Users/dai/cpp/sys/GLFW_Opengl/ShadowMap/Xcode;
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              80B41F392E794AED96D59F38 /* Build configuration list for PBXProject  "ShadowMap" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            6B4C0EBF951C43AA9DFAAADA /* Debug */,
+                            321B3C2E1A244F6E8DD1F717 /* Release */,
+                            6FAB7F77EB134031B2B18FE7 /* MinSizeRel */,
+                            FE500831A2C04F00809367BB /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              41F87AD6ADE242A3A880FFC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            52E7F111F4D14414B28B8CD4 /* Debug */,
+                            7F77F8650ED44293B7276CC9 /* Release */,
+                            949CC2CC59F54D568810CE7F /* MinSizeRel */,
+                            FD52D2E5133D4ED6B0C2C2AD /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              0437724FD42D4920B1BC4D9B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            25FE40E8D59047B794E20516 /* Debug */,
+                            94C9EDADE0474170BFD2A3FD /* Release */,
+                            65D7BA84B1B946D79F621CC3 /* MinSizeRel */,
+                            8E21A6E9405F461595BCB334 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              E2F00F7D445E405CAE7668E7 /* Build configuration list for PBXNativeTarget "a" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            849B4AE1575B4873B09EFDDE /* Debug */,
+                            3B52AF6836F1437595174F18 /* Release */,
+                            C1168D9205E8482692E93792 /* MinSizeRel */,
+                            F27D084B136C4F5FBE7370E6 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = B77834350444470695E775AC;
+}
