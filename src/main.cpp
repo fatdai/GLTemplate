@@ -52,6 +52,10 @@ using namespace std;
  21. 实现2个小游戏(空战,赛艇)
  22. 阅读 ogre 源码
 
+ git:
+ git remote add origin https://github.com/fatdai/GLTemplate.git
+ git push -u origin master
+ 
 */
 int main(int argc,  char * argv[]) {
 
